@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+/* swiper slide and active slide color control */
 .swiper-slide {
   border-radius: 20px;
   overflow: hidden;
@@ -21,6 +22,5 @@
 }
 
 .swiper-slide-active::before {
-  opacity: 1;
   background-color: unset;
 }
