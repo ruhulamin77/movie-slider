@@ -24,11 +24,7 @@ const SlideDetails = ({ activeSlideData }) => {
           {year} - {category} - {duration}
         </span>
         <span className="flex items-center gap-5">
-          <img
-            src="../src/assets/images/imdb.png"
-            className="w-16"
-            alt="imdb"
-          />
+          <img src="/assets/images/imdb.png" className="w-16" alt="imdb" />
           <span>{rating}</span>
         </span>
       </div>
@@ -46,8 +42,8 @@ const SlideDetails = ({ activeSlideData }) => {
         )}
       </div>
       <button className="bg-[#f39c12] rounded-lg flex items-center p-2 px-5  my-10">
-        <img src="../src/assets/images/play.png" alt="" />
-        <span className="px-3 pe-4 text-white text-xl">Watch Now</span>
+        <img src="/assets/images/play.png" alt="" />
+        <span className="ps-3 text-white text-xl">Watch Now</span>
       </button>
     </>
   );
