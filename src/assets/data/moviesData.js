@@ -3,7 +3,7 @@ export const moviesData = [
   {
     id: 1,
     title: 'Children of the Corn',
-    statue: 'Out of Theaters',
+    status: 'Out of Theaters',
     description: `Six college students take a wrong turn and find themselves lost in a strangely deserted rural town... only to discover that this deceptively quiet place hides a murderous cult of children controlled by evil forces!
 
       The film features a young Eva Mendes' in her first movie. If nothing else, it seems that the "Children of the Corn" franchise was good for launching starlets' careers. Mendes follows in the footsteps of Charlize Theron and Naomi Watts.

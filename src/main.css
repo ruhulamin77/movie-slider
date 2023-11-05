@@ -3,9 +3,10 @@
 @tailwind utilities;
 
 .swiper-slide {
-  border-radius: 15px;
+  border-radius: 20px;
   overflow: hidden;
 }
+
 .swiper-slide::before {
   transition: 0.5s;
   content: '';
@@ -23,9 +24,3 @@
   opacity: 1;
   background-color: unset;
 }
-
-/* .swiper-slide img {
-  display: block;
-  width: 50%;
-  border-radius: 22px;
-} */
