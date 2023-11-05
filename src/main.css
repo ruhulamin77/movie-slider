@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.swiper-slide {
+  border-radius: 15px;
+  overflow: hidden;
+}
+.swiper-slide::before {
+  transition: 0.5s;
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+  pointer-events: none;
+}
+
+.swiper-slide-active::before {
+  opacity: 1;
+  background-color: unset;
+}
+
+/* .swiper-slide img {
+  display: block;
+  width: 50%;
+  border-radius: 22px;
+} */
